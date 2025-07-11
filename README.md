@@ -5,15 +5,15 @@ Conway’s Game of Life is a zero-player game devised by mathematician John Hort
 This implementation allows you to visualize the evolution of cells in a grid, explore different starting configurations, and observe how complex patterns emerge from simple rules.
 
 **🌟 Features**
-  # Interactive grid to create and modify cell patterns
+  1. Interactive grid to create and modify cell patterns
 
-  # Start, pause, and reset the simulation
+  2. Start, pause, and reset the simulation
 
-  # Customizable grid size and speed
+  3. Customizable grid size and speed
 
-  # Predefined patterns like Gliders, Pulsars, and more
+  4. Predefined patterns like Gliders, Pulsars, and more
 
-  # Clean and responsive UI
+  5. Clean and responsive UI
 
 🚀 **How It Works**
 The game runs on a grid where each cell can be alive or dead.
