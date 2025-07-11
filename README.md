@@ -5,8 +5,11 @@
 Conway’s Game of Life is a zero-player game devised by mathematician John Horton Conway in 1970. It is a cellular automaton where cells on a grid evolve through generations based on simple rules, creating fascinating and often unexpected patterns.
 
 This implementation allows you to:
+
 ✅ Visualize how simple rules lead to complex behaviors
+
 ✅ Experiment with patterns like Gliders and Pulsars
+
 ✅ Customize grid size and speed
 
 🌟 Features
@@ -23,8 +26,11 @@ This implementation allows you to:
 The game runs on a grid where each cell can be alive or dead. At every generation, the following rules are applied:
 
 ✅ Underpopulation: A live cell with fewer than 2 neighbors dies.
+
 ✅ Survival: A live cell with 2 or 3 neighbors survives.
+
 ✅ Overpopulation: A live cell with more than 3 neighbors dies.
+
 ✅ Reproduction: A dead cell with exactly 3 neighbors becomes alive.
 
 These simple rules create intricate and mesmerizing patterns over time.
