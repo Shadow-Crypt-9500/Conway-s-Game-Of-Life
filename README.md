@@ -1,69 +1,34 @@
-# React + TypeScript + Vite
+**Conway's Game of Life 🧬**
+Conway’s Game of Life is a zero-player game devised by mathematician John Horton Conway in 1970. It is a cellular automaton where cells on a grid evolve through generations based on simple rules, creating fascinating patterns and behaviors.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This implementation allows you to visualize the evolution of cells in a grid, explore different starting configurations, and observe how complex patterns emerge from simple rules.
 
-Currently, two official plugins are available:
+**🌟 Features**
+  # Interactive grid to create and modify cell patterns
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  # Start, pause, and reset the simulation
 
-## Expanding the ESLint configuration
+  # Customizable grid size and speed
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+  # Predefined patterns like Gliders, Pulsars, and more
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+  # Clean and responsive UI
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+🚀 **How It Works**
+The game runs on a grid where each cell can be alive or dead.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+At each step (generation), the following rules are applied to every cell:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+ ✅ Underpopulation: A live cell with fewer than 2 live neighbors dies.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+ ✅ Survival: A live cell with 2 or 3 live neighbors survives.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+ ✅ Overpopulation: A live cell with more than 3 live neighbors dies.
+
+ ✅ Reproduction: A dead cell with exactly 3 live neighbors becomes alive.
+
+These simple rules can lead to very complex and beautiful patterns over time.
+
+![Conway's Game Of Life gif](https://github.com/user-attachments/assets/92ac3342-7042-4dda-8536-4996166c9f7c)
+
+
