@@ -14,7 +14,7 @@ This implementation allows you to:
 
 
 
-🌟 Features
+**🌟 Features**
 
 ✨ Interactive Grid – Create and modify cell patterns easily
 
@@ -30,7 +30,7 @@ This implementation allows you to:
 
 
 
-🚀 How It Works
+**🚀 How It Works**
 
 The game runs on a grid where each cell can be alive or dead. At every generation, the following rules are applied:
 
@@ -46,19 +46,19 @@ These simple rules create intricate and mesmerizing patterns over time.
 
 
 
-🎞️ Preview
+**🎞️ Preview**
 
 ![Conway's Game Of Life gif](https://github.com/user-attachments/assets/4260629e-4e8f-4e1a-9a5d-452bdc021f29)
 
 
 
-🌐 Live Demo
+**🌐 Live Demo**
 
 [Click here to view the app](https://conway-s-game-of-life-tau.vercel.app/)
 
 
 
-🛠 Tech Stack
+**🛠 Tech Stack**
 
 🌐 React, TailwindCSS, TypeScript
 
