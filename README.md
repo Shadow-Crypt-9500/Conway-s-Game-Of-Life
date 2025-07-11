@@ -61,4 +61,5 @@ These simple rules create intricate and mesmerizing patterns over time.
 🛠 Tech Stack
 
 🌐 React, TailwindCSS, TypeScript
+
 🚀 Vercel for deployment
