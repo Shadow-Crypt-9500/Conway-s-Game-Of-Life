@@ -33,4 +33,6 @@ These simple rules can lead to very complex and beautiful patterns over time.
 
 ![Conway's Game Of Life gif](https://github.com/user-attachments/assets/92ac3342-7042-4dda-8536-4996166c9f7c)
 
+Deployed App: conway-s-game-of-life-tau.vercel.app
+
 
