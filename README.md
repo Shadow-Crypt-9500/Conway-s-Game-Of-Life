@@ -16,6 +16,7 @@ This implementation allows you to visualize the evolution of cells in a grid, ex
   5. Clean and responsive UI
 
 🚀 **How It Works**
+
 The game runs on a grid where each cell can be alive or dead.
 
 At each step (generation), the following rules are applied to every cell:
