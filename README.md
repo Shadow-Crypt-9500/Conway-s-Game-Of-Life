@@ -12,14 +12,23 @@ This implementation allows you to:
 
 ✅ Customize grid size and speed
 
+
+
 🌟 Features
 
 ✨ Interactive Grid – Create and modify cell patterns easily
+
 ⏯️ Start, Pause & Reset – Control the simulation with one click
+
 ⚡ Customizable Speed – Change how fast generations evolve
+
 📐 Resizable Grid – Play on grids of different sizes
+
 📚 Predefined Patterns – Explore famous patterns like Gliders, Pulsars, etc.
+
 📱 Responsive Design – Works seamlessly on desktop and mobile
+
+
 
 🚀 How It Works
 
@@ -35,6 +44,8 @@ The game runs on a grid where each cell can be alive or dead. At every generatio
 
 These simple rules create intricate and mesmerizing patterns over time.
 
+
+
 🎞️ Preview
 
 ![Conway's Game Of Life gif](https://github.com/user-attachments/assets/4260629e-4e8f-4e1a-9a5d-452bdc021f29)
@@ -44,6 +55,8 @@ These simple rules create intricate and mesmerizing patterns over time.
 🌐 Live Demo
 
 [Click here to view the app](https://conway-s-game-of-life-tau.vercel.app/)
+
+
 
 🛠 Tech Stack
 
